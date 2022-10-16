@@ -1,4 +1,4 @@
-# Early stage of Indians Chronic Kidney Disease(CKD)
+# Early stage of Indians Chronic Kidney Disease([CKD](https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease))
 
 ## Source Information:
 ### Source 
@@ -34,36 +34,6 @@ Emailid:eswaranperumal@gmail.com
 ### Date 
 ```July 2015```
 
-
-## Relevant Information
-```
-age		-	age	
-bp		-	blood pressure
-sg		-	specific gravity
-al		-   	albumin
-su		-	sugar
-rbc		-	red blood cells
-pc		-	pus cell
-pcc		-	pus cell clumps
-ba		-	bacteria
-bgr		-	blood glucose random
-bu		-	blood urea
-sc		-	serum creatinine
-sod		-	sodium
-pot		-	potassium
-hemo		-	hemoglobin
-pcv		-	packed cell volume
-wc		-	white blood cell count
-rc		-	red blood cell count
-htn		-	hypertension
-dm		-	diabetes mellitus
-cad		-	coronary artery disease
-appet		-	appetite
-pe		-	pedal edema
-ane		-	anemia
-class		-	class	
-```
-
 ## Number of Instances
 ```
 400 (250 CKD, 150 notckd)
@@ -74,57 +44,35 @@ class		-	class
 24 + class = 25 ( 11  numeric ,14  nominal) 
 ```
 ## Attribute Information
-```
-1.Age(numerical)
-      age in years
-2.Blood Pressure(numerical)
-        bp in mm/Hg
-3.Specific Gravity(nominal)
-    sg - (1.005,1.010,1.015,1.020,1.025)
-4.Albumin(nominal)
-  al - (0,1,2,3,4,5)
-5.Sugar(nominal)
-  su - (0,1,2,3,4,5)
-6.Red Blood Cells(nominal)
-  rbc - (normal,abnormal)
-7.Pus Cell (nominal)
-  pc - (normal,abnormal)
-8.Pus Cell clumps(nominal)
-  pcc - (present,notpresent)
-9.Bacteria(nominal)
-  ba  - (present,notpresent)
-10.Blood Glucose Random(numerical)		
-  bgr in mgs/dl
-11.Blood Urea(numerical)	
-  bu in mgs/dl
-12.Serum Creatinine(numerical)	
-  sc in mgs/dl
-13.Sodium(numerical)
-  sod in mEq/L
-14.Potassium(numerical)	
-  pot in mEq/L
-15.Hemoglobin(numerical)
-  hemo in gms
-16.Packed  Cell Volume(numerical)
-17.White Blood Cell Count(numerical)
-  wc in cells/cumm
-18.Red Blood Cell Count(numerical)	
-  rc in millions/cmm
-19.Hypertension(nominal)	
-  htn - (yes,no)
-20.Diabetes Mellitus(nominal)	
-  dm - (yes,no)
-21.Coronary Artery Disease(nominal)
-  cad - (yes,no)
-22.Appetite(nominal)	
-  appet - (good,poor)
-23.Pedal Edema(nominal)
-  pe - (yes,no)	
-24.Anemia(nominal)
-  ane - (yes,no)
-25.Class (nominal)		
-  class - (ckd,notckd)
-```
+
+|n.|Attribute|Description|Type|Unit|
+|---|---|---|---|---|
+|1	|age	| Age					|numerical	|in years|
+|2	|bp 	| Blood Pressure 			|numerical	|in mm/Hg|
+|3	|sg 	| Specific Gravity			|nominal	|(1.005,1.010,1.015,1.020,1.025)|
+|4	|al  	| Albumin				|nominal	|(0,1,2,3,4,5)|
+|5	|su  	| Sugar					|nominal	|(0,1,2,3,4,5)|
+|6	|rbc  	| Red Blood Cells			|nominal	|(normal,abnormal)|
+|7	|pc	| Pus Cell 				|nominal	|(normal,abnormal)|	
+|8	|pcc 	| Pus Cell clumps			|nominal	|(present,notpresent)|
+|9	|ba  	| Bacteria				|nominal	|(present,notpresent)|
+|10	|bgr 	| Blood Glucose Random			|numerical	|in mgs/dl|
+|11	|bu 	| Blood Urea				|numerical	|in mgs/dl|
+|12	|sc 	| Serum Creatinine			|numerical	|in mgs/dl|
+|13	|sod 	| Sodium				|numerical	|in mEq/L|
+|14	|pot 	| Potassium				|numerical	|in mEq/L|
+|15	|hemo 	| Hemoglobin				|numerical	|in gms|
+|16	|pcv	| Packed  Cell Volume			|numerical	|% cells in blood|
+|17	|wc	| White Blood Cell Count		|numerical	|in cells/cumm|
+|18	|rc 	| Red Blood Cell Count			|numerical	|in millions/cmm|
+|19	|htn 	| Hypertension				|nominal	|(yes,no)|
+|20	|dm  	| Diabetes Mellitus			|nominal	|(yes,no)|
+|21	|cad 	| Coronary Artery Disease		|nominal	|(yes,no)|
+|22	|appet  | Appetite				|nominal	|(good,poor)|
+|23	|pe	| Pedal Edema				|nominal	|(yes,no)|
+|24	|ane  	| Anemia				|nominal	|(yes,no)|
+|25	|class 	| Class 				|nominal	|(ckd,notckd)|
+
 
 ## Missing Attribute Values
 ```
@@ -132,8 +80,8 @@ Yes(Denoted by "?")
 ```
 
 ## Class Distribution (2 classes)
-```
-Class 	  Number of instances
-ckd          	  250
-notckd       	  150   
-	
+
+|Class | Number of instances|
+|:---:|:---:|
+|ckd | 250|
+|notckd | 150 |  
