@@ -1,6 +1,6 @@
 # Early stage of Indians Chronic Kidney Disease([CKD](https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease))
 
-## Source Information:
+## Source Information
 ### Source 
 ```
 Dr.P.Soundarapandian.M.D.,D.M 
